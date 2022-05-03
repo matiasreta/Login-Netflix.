@@ -1,0 +1,139 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+header.index{
+    text-align: center;
+    background-color: aquamarine;
+}
+/* General */
+/* Index */
+h1.index{
+    background-color: aquamarine;
+    font-size: 100px;
+}
+nav{
+    text-align: center;
+    background-color: rgb(84, 128, 128);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    border: 1px solid black;
+    padding: 15px 211px;
+    font-size: 20px;
+}
+main.fondo{
+    background-color: rgb(0, 0, 0);
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+#filtros{
+    background-color: beige;
+    padding: 0px 10px;
+    text-align: center;
+}
+#filtros h3{
+    display:inline;
+    margin: 270px;
+}
+.contenidos{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.contenidos article{
+    margin: 0px 5px;
+}
+.contenidos p{
+    color: white;
+    font-weight: bold;
+}
+h2{
+    text-align: left;
+    margin-left: 50px;
+    color: white;
+    padding: 25px 0px 15px 150px;
+}
+/* Index */
+/* Login */
+
+body.login{
+    background-image: url(../img/loginsSreen.jpg);
+    background-color: rgba(0,0,0,.55);
+    background-blend-mode: soft-light;
+    display: grid;
+    grid-template-rows: 82px 660px 335px;
+}
+h1.login{
+    color: white;
+    font-size: 32px;
+    margin: 0px 0px 28px;
+}
+div.login_ingreso_de_datos{
+    background-color: rgba(0,0,0,.75);
+    border-radius: 8px;
+    width: 450px;
+    height: 660px;
+    margin: auto;
+
+}
+section.login_distribucion{
+    display: grid; 
+    width: 314px;
+    height: 550px;
+}
+article.login_form{
+    margin-top: 60px;
+    color: black;
+    background-color:rgba(0, 0, 0, 0);
+}
+input.input_login{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: calc(100% - 20px);
+    outline: none;
+    border: 0px;
+    padding: 24px 0px 8px 20px;
+    border-radius: 3px;
+    font-size: medium;
+    margin-bottom: 16px;
+}
+label.label_login{
+    font-size: 11px;
+    position: absolute;
+    margin: 8px 0px 0px 20px;
+}
+article.login_suscripcion{
+    color: #737373;
+    font-size: small;
+}
+button.iniciar_sesion_login{
+    font-size:14px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #e50914;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    border: 0px;
+    width: 100%;
+    padding: 16px 0px;
+    border-radius: 3px;
+}
+img.viculo_facebook{
+    width: 20px;
+}
+
+/* Login */
+/* Password */
+
+
