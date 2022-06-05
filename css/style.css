@@ -13,17 +13,20 @@ header.index{
 }
 /* General */
 /* Login */
+main.login_ingreso{
+
+}
+
 header.logo_login{
     padding: 20px 0px 0px 50px;
 }
 body.login{
     background-image: url(../img/got_portada.jpg);
-    background-size: cover;
-    
+    background-size: cover;  
     background-color: rgba(0,0,0,.55);
     background-blend-mode: soft-light;
     display: grid;
-    grid-template-rows: 82px 660px 335px;
+    grid-template-rows: 90px 750px 1fr;
 }
 h1.login{
     color: white;
@@ -80,12 +83,10 @@ button.iniciar_sesion_login{
     padding: 16px 0px;
     border-radius: 4px;
 }
-
 a.vinculo_sub{
     font-size: 16px;
     text-decoration: none;
     color: white;
-
 }
 div.password_login{
     font-size: 13px;
@@ -101,20 +102,52 @@ a.recuperar_pass{
     text-decoration: none;
 }
 
-div.footer_login{
-    background-color: rgb(0, 0, 0,0.75);
-    
+/* Login */
+/* footer */
+div.footer_origin{
+    height: 240px;
+    background-color: rgba(255, 250, 250, 0.75);
+
 }
 
-/* Login */
+ul.informacion_footer{
+    margin: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+li.li_login{
+    background-color: #0080FF;
+    list-style: none;   
+}
+a.li_login{
+    text-decoration: none;
+}
+p.numero_servicio{
+    padding-top: 30px;
+    margin: auto;
+    width: 1000px;
+    padding-bottom: 30px;
+}
+@media(max-width: 1000px){
+    p.numero_servicio{
+        width: 100%; 
+    }
+    ul.informacion_footer{
+        width: 100%;
+    }
+
+}
+
+/* footer */
 /* Password */
 body.recuperacion{
     background-image: url(../img/fondo_password.jpg);
     background-size:cover;
     display: grid;
-    grid-template-rows: 82px 660px 335px;
+    grid-template-rows: 90px 750px 1fr;
 }
-
 h1.recuperar{
     color: #333333;
     font-size: 32px;
@@ -126,13 +159,6 @@ div.recuperar_ingreso_de_datos{
     width: 450px;
     height: 660px;
     margin: auto;
-
-}
-div.footer_recuperar{
-    margin-top: 100px;
-    height: calc(100% - 90px);
-    padding-left: 50px;
-    padding-right: 50px;
 }
 label.label_recuperar_mail{
     font-size: 11px;
