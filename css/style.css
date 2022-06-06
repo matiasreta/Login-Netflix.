@@ -18,9 +18,8 @@ header.logo_login{
     padding: 20px 0px 0px 50px;
 }
 body.login{
-    background-image: url(../img/got_portada.jpg);
-    background-size: cover;  
-    background-color: rgba(0,0,0,0.45);
+    background-image: url(../img/background_login.jpg); 
+    background-color: rgb(0, 0, 0,0.55);
     background-blend-mode: soft-light;
     display: grid;
     grid-template-rows: 90px 750px 1fr;
