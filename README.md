@@ -1,2 +1,2 @@
 # netflixsn-t
-Diseño de Netflix.
+Diseño de un clon de Netflix.
