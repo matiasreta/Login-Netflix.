@@ -15,14 +15,14 @@
         <div class="login_ingreso_de_datos">
             <section class="login_distribucion">
                 <article class="login_form">
-                    <h1 class="login"> Inicia sesión</h1>
-                    <form action="formulario" method="post">
+                    <h1 class="login" id="inicio1" > Inicia sesión</h1>
+                    <form action="formulario" method="post" onsubmit="return validar()">
                         <label class="label_login" for="mail" required> Email</label>
-                        <input class="input_login"  type="mail" id="mail" name="mail" required>
-                        <label class="label_login" for="contraseña" >Contraseña</label>       
+                        <input class="input_login"   type="mail" id="mail"name="mail" onmouseout="outMouse()" onmouseover="onMouse()" required>
+                        <label class="label_login" for="contraseña" onmouseout="outMouse()" onmouseover="onMouse()" >Contraseña</label>       
                         <input class="input_login" type="password" id="contraseña">
+                        <a href="index.html"><button class="iniciar_sesion_login" >Iniciar Sesión</button></a>
                     </form>
-                    <a href="index.html"><button class="iniciar_sesion_login">Iniciar Sesión</button></a>
                     <div class="password_login"> 
                         <div>
                             <input type="checkbox" >
@@ -52,6 +52,6 @@
             </ul>
         </div>
     </footer>
-    <script src=""></script>
+    <script src="js/validacion.js"></script> 
 </body>
 </html>
