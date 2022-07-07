@@ -152,6 +152,11 @@ p.numero_servicio{
 
 }
 /* footer */
+/* Estilos js */
+div.error{
+    color: #e50914;
+}
+/* Estilos js */
 /* Password */
 body.recuperacion{
     background-image: url(../img/fondo_password.jpg);
