@@ -6,10 +6,10 @@
         document.getElementById("mail").style.background  = 'rgb(201, 201, 201)';
     };
     function onMousec(){
-        document.getElementById("contraseña").style.background = 'white';
+        document.getElementById("password").style.background = 'white';
     };
     function outMousec(){
-        document.getElementById("contraseña").style.background  = 'rgb(201, 201, 201)';
+        document.getElementById("password").style.background  = 'rgb(201, 201, 201)';
     };
 
     // voy a ir checkeando error por error si pasa va a preguntar
@@ -36,7 +36,8 @@
             console.log("entro")
             return false;
         }else{
-            return false;
+
+            return true;
         }
 
     }
@@ -64,7 +65,7 @@
         }
 
         else{
-            return false;
+            return true;
         }
 
 
