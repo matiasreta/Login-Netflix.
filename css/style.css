@@ -155,6 +155,10 @@ p.numero_servicio{
 /* Estilos js */
 div.error{
     color: #e50914;
+    
+}
+p.alerta{
+    color: #e50914;
 }
 /* Estilos js */
 /* Password */

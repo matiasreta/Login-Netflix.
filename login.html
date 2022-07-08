@@ -16,21 +16,18 @@
             <section class="login_distribucion">
                 <article class="login_form">
                     <h1 class="login" id="inicio1" > Inicia sesión</h1>
-                    <form action="formulario" method="post" onsubmit="return validar()" >
-                        <label class="label_login" for="mail"> Email</label>
-                        <input class="input_login"   type="mail" id="mail"name="mail" onmouseout="outMouse()" onmouseover="onMouse()">
-                        <div class="error" id="mensaje" class="error">
-
-                        </div>
-                        <label class="label_login" for="contraseña" >Contraseña</label>
-
-                        <input class="input_login" type="password" id="contraseña">
+                    <form  method="post" action='' id="formulario" onsubmit="return validar()" >
+                        <label class="label_login" id="error_mail" for="mail"> Email</label>
+                        <input class="input_login"   type="mail" id="mail"name="mail" onfocus="onMouse()" onblur="outMouse()">
+                        <div class="error" id="mensaje" class="error"> </div>
+                        <label class="label_login" id="error_contra" for="password" >Contraseña</label>
+                        <input class="input_login" type="password" id="password" onfocus="onMousec()" onblur="outMousec()" >
                         <a href="index.html"><button class="iniciar_sesion_login" >Iniciar Sesión</button></a>
                     </form>
                     <div class="password_login"> 
                         <div>
                             <input type="checkbox" >
-                            <label class="recordar_pass" type="checkbox" for="contraseña" >Recuérdame</label>
+                            <label class="recordar_pass" type="checkbox" for="password" >Recuérdame</label>
                         </div>
                         <p class="recuperar_pass" ><a class="recuperar_pass" href="password.html">¿Necesitas ayuda?</a></p>
                     </div>  
