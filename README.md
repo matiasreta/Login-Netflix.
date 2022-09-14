@@ -1,1 +1,1 @@
-recreo el login de netflix, utilizando CSS puro.
+Recreo el login de netflix, utilizando CSS puro!
