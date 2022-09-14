@@ -1,2 +1,1 @@
-# netflixsn-t
-Diseño de un clon de Netflix.
+recreo el login de netflix, utilizando CSS puro.
